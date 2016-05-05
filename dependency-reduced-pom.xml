@@ -9,6 +9,7 @@
     <maven>3.0.0</maven>
   </prerequisites>
   <build>
+    <finalName>${project.artifactId}</finalName>
     <plugins>
       <plugin>
         <artifactId>maven-shade-plugin</artifactId>
