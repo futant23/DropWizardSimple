@@ -40,18 +40,7 @@
             <groupId>io.dropwizard</groupId>
             <artifactId>dropwizard-core</artifactId>
         </dependency>
-        
-        <dependency>
-            <groupId>com.boeing</groupId>
-            <artifactId>pAssets</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        
-         <dependency>
-            <groupId>com.boeing.laso</groupId>
-            <artifactId>laso_inf</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
+
     </dependencies>
 
     <build>
