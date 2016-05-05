@@ -22,6 +22,14 @@
         <dropwizard.version>0.9.1</dropwizard.version>
         <mainClass>com.javaeeeee.dwstart.DWGettingStartedApplication</mainClass>
     </properties>
+    
+    <repositories>
+        <repository>
+            <id>bintray</id>
+            <name>bintray repository</name>
+            <url>https://jcenter.bintray.com</url>
+        </repository>
+    </repositories>
 
     <dependencyManagement>
         <dependencies>
@@ -39,6 +47,14 @@
         <dependency>
             <groupId>io.dropwizard</groupId>
             <artifactId>dropwizard-core</artifactId>
+        </dependency>
+        
+      
+
+        <dependency> 
+            <groupId>com.commercehub.dropwizard</groupId> 
+            <artifactId>dropwizard-camel-core</artifactId> 
+            <version>2.0.0</version> 
         </dependency>
 
     </dependencies>
